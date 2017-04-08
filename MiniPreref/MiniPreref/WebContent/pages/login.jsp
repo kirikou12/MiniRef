@@ -17,7 +17,7 @@
 <body>
 <s:form action="login.action" >
 
-	<input type="text" ng-model='query'/>
+	<input type="text"  ng-model='query'/>
 	<select ng-model="order">
     	<option value="name">Organiser par nom</option>
     	<option value="comment">Organiser par contenu</option>
